@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0%;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://media.istockphoto.com/id/1211921908/es/vector/interior-del-pasillo-escolar-con-puertas-y-taquillas.webp?s=1024x1024&w=is&k=20&c=Gg3IhlwsElGdZzgbzNKMHA6h4Zetb44IBNofLhh1VPA=);
+    
+}
+
+a{
+text-decoration: none;
+cursor: pointer;
+
+}
+
+header{
+
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav .nav-right-section a{
+
+margin-right: 12px;
+color: black;
+}
+
+nav .nav-right-section .menu-icon{
+
+    background-image: url(https://static.thenounproject.com/png/4066330-200.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+nav .nav-right-section img{
+
+    border-radius: 50px;
+    margin-left: 10px;
+
+}
+main{
+    margin-top: 150px;
+    text-align: center;
+
+}
+main .mai-logo{
+    width: 530px;
+    margin: 0 auto;
+
+}
+
+main .mai-logo img{
+
+    width: 350px;
+}
+
+main .main-input{
+    width: 525px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+main .main-input input{
+    width: 450px;
+    height: 25px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover{
+
+    box-shadow: 0 1px 6px 0 whitesmoke;
+    border-color: aliceblue;
+}
+
+main .main-input .search-icon{
+
+    background-image: url(https://static.thenounproject.com/png/1122987-200.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .main-input .micro-icon{
+
+    background-image: url(https://static.thenounproject.com/png/3556044-200.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .main-button{
+width: 530px;
+margin: 0 auto;
+
+}
+
+main .main-button div{
+    display: inline-block;
+}
+
+main .main-button button{
+    height: 30px;
+    background-color: aliceblue;
+    border: 0;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+main .main-button button:hover{
+
+    border: 1px solid aliceblue;
+    box-shadow: 0 1px 1px #000001;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: lavender;
+    border-top: 1px solid #1b1b1b;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-content: left;
+}
+
+footer .footer-left{
+    justify-content: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #000001;
+}
+
+
